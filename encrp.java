@@ -13,6 +13,8 @@ public class encrp {
                     char encrp=(char)(((c-97+k)%26)+97);    
                     result.append(encrp);
                 }
+            }else{
+                result.append(c);
             }
         }
         System.out.println(result);
