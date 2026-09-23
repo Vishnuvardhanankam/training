@@ -1,4 +1,3 @@
-package strings;
 public class stringcheck {
     public static void main(String[] args) {
         String s1="jhgHGJIHGh9809@#$%";
@@ -22,11 +21,11 @@ public class stringcheck {
             else {
                 special++;
             }  
-            System.out.println(s1);
-            System.out.println(vowels); 
-            System.out.println(consonants); 
-            System.out.println(num); 
-            System.out.println(special); 
-    }
+        }
+        System.out.println(s1);
+        System.out.println(vowels);
+        System.out.println(consonants);
+        System.out.println(num);
+        System.out.println(special);
 }
 }
