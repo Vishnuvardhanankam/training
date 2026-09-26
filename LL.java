@@ -33,6 +33,15 @@ class Linkedlist {
         }
         System.out.println("null");
     }
+    void countNode(){
+        int count=0;
+        Node now=head;
+        while(now!=null){
+            count++;
+            now=now.next;
+        }
+        System.out.println(count);
+    }
 }
 public class LL {
     public static void main(String[] args) {
@@ -45,5 +54,6 @@ public class LL {
         list.insertAtBeginning(10);
         list.insertAtBeginning(70);
         list.display();
+        list.countNode();
     }
 }
